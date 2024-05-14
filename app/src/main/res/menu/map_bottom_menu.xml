@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_community"
+        android:enabled="true"
+        android:icon="@drawable/baseline_groups_24"
+        android:title="커뮤니티"/>
+
+    <item
+        android:id="@+id/navigation_camera"
+        android:enabled="true"
+        android:icon="@drawable/baseline_photo_camera_24"
+        android:title="카메라"/>
+
+    <item
+        android:id="@+id/navigation_pause"
+        android:enabled="true"
+        android:icon="@drawable/baseline_pause_circle_outline_24"
+        android:title="일시 정지"/>
+</menu>

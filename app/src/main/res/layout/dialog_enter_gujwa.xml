@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#436C6C6C"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:minWidth="300dp"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="구좌읍을 방문하시겠습니까?"
+        android:textStyle="bold"
+        android:textSize="30sp">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:text="취소"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="확인"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
