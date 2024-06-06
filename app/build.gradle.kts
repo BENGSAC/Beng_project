@@ -37,6 +37,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.appcompat)
+    implementation("io.github.ParkSangGwon:tedpermission-normal:3.3.0")
     implementation(libs.constraintlayout)
     implementation(libs.annotation)
     implementation(libs.lifecycle.livedata.ktx)
